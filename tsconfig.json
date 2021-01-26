@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6", // 01. tell TS whatversion of JavaScript to compile down to
+    "module": "es2015", // 02. tell TS what module system to use
+    "outDir": "./public/js", // 03. tell TS which folder to compile the js to
+    "rootDir": "./src", // 04. tell TS which folder to TS source files are in
+    "strict": true // 05. tell TS to run in strict mode
+  },
+  "include": [
+    "./src"
+  ] // 06. tell TS to only compile TS files from the SRC folder.
+}
